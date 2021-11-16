@@ -1,0 +1,59 @@
+body{
+    background-image: url(./page.jpeg);
+    background-size: cover;
+    font-family:  serif;
+    font-family: 'Libre Baskerville', serif;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Yuji Boku', serif;
+}
+
+a{
+    margin-left: 490px;
+    width: 15px;
+    margin-top: 60px;
+}
+button{
+    width: 200px;
+    height: 40px;
+    border-top-left-radius: 35px;
+    border-bottom-right-radius: 35px;
+    border: 2px solid black;
+    background-color: transparent;
+    margin-top: 20px;
+}
+button:hover{
+    background-color: aliceblue;
+    color: black;
+}
+p{
+    font-size:medium;
+    margin-left: 80px;
+}
+p::first-letter{
+    color:black;
+    font-weight: bolder;
+    font-size: 30px;
+}
+p:hover{
+    font-size: larger;
+    color: maroon;
+}
+
+.h1{
+    margin-left: 400px;
+    font-size: 40px;
+    margin-bottom: 0px;
+}
+.underline{
+    text-decoration: underline;
+}
+hr{
+    margin-top: 2px;
+    background-color: black;
+    height: 1px;
+} 
+
+
+
+
